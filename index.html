@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guia dos Calouros - UNIVESP</title>
 
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <!-- FontAwesome para os ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -262,31 +262,61 @@
         <section id="recursos" class="section section-gray">
             <h2 class="section-title">6. RECURSOS IMPORTANTES</h2>
             <div class="grid-cards-6">
-                <div class="card mini-card">
-                    <i><a href="https://apps.univesp.br/manual-do-aluno/" target="_blank" class="fa-solid fa-book icon"></a></i><p>Manual do Aluno</p>
-                </div>
-                <div class="card mini-card"> <!--https://apps.univesp.br/manual-do-aluno/calendario-provas/-->
-                    <i class="fa-regular fa-calendar-alt icon"></i><p>Calendário Acadêmico e Provas</p>
-                    <a href="https://apps.univesp.br/manual-do-aluno/calendario-academico/" target="_blank"><p>Calendário Acadêmico</p>
-                    <a href="https://apps.univesp.br/manual-do-aluno/calendario-provas/" target="_blank"><p>Calendario de provas</p></a>
-                </div>
-                <div class="card mini-card">
-                    <i><a href="https://univesp.br/polos/" target="_blank" class="fa-solid fa-map-location-dot icon"></a></i><p>Polos de Apoio</p> 
-                </div>
-                <div class="card mini-card">
-                    <i><a href="https://apps.univesp.br/graduacao/portal-estagios/" target="_blank" class="fa-solid fa-briefcase icon"></a></i><p>Portal de Estágios</p>
-                </div>
-                <div class="card mini-card">
-                    <i class="fa-brands fa-youtube icon"></i><p>UNIVESP TV</p>
-                    <a href="https://univesptv.com.br/" target="_blank"><p>Grade de Programação - Televisão</p>
-                    <a href="https://youtube.com/@univesptv?si=J4eFNRaSmYD4JG4l" target="_blank"><p>Canal do Youtube</p></a>
-                </div>
-                <div class="card mini-card">
-                     <i><a href="https://univesp.br/" target="_blank" class="fa-solid fa-globe icon"></a></i><p>Site Institucional</p>
-                </div>
-            </div>
+    <!-- 1. MANUAL DO ALUNO (Card Inteiro Clicável) -->
+    <a href="https://apps.univesp.br/manual-do-aluno/" target="_blank" class="card-link-completo">
+        <div class="card mini-card">
+            <i class="fa-solid fa-book icon"></i>
+            <p>Manual do Aluno</p>
+        </div>
+    </a>
+
+    <!-- 2. CALENDÁRIO ACADÊMICO (Mantém os links separados de forma organizada) -->
+    <div class="card mini-card">
+        <i class="fa-regular fa-calendar-alt icon"></i>
+        <p class="titulo-card-multiplo">Calendário Acadêmico e Provas</p>
+        <div class="links-internos">
+            <a href="https://apps.univesp.br/manual-do-aluno/calendario-academico/" target="_blank"><p>Calendário Acadêmico</p></a>
+            <a href="https://apps.univesp.br/manual-do-aluno/calendario-provas/" target="_blank"><p>Calendário de provas</p></a>
+        </div>
+    </div>
+
+    <!-- 3. POLOS DE APOIO (Card Inteiro Clicável) -->
+    <a href="https://univesp.br/polos" target="_blank" class="card-link-completo">
+        <div class="card mini-card">
+            <i class="fa-solid fa-map-location-dot icon"></i>
+            <p>Polos de Apoio</p>
+        </div>
+    </a>
+
+    <!-- 4. PORTAL DE ESTÁGIOS (Card Inteiro Clicável) -->
+    <a href="https://apps.univesp.br/graduacao/portal-estagios/" target="_blank" class="card-link-completo">
+        <div class="card mini-card">
+            <i class="fa-solid fa-briefcase icon"></i>
+            <p>Portal de Estágios</p>
+        </div>
+    </a>
+
+    <!-- 5. UNIVESP TV (Mantém os links separados de forma organizada) -->
+    <div class="card mini-card">
+        <i class="fa-brands fa-youtube icon"></i>
+        <p class="titulo-card-multiplo">UNIVESP TV</p>
+        <div class="links-internos">
+            <a href="https://univesptv.com.br/" target="_blank"><p>Grade de Programação - Televisão</p></a>
+            <a href="https://youtube.com/@univesptv?si=J4eFNRaSmYD4JG4l" target="_blank"><p>Canal do Youtube</p></a>
+        </div>
+    </div>
+
+    <!-- 6. SITE INSTITUCIONAL (Card Inteiro Clicável) -->
+    <a href="https://univesp.br/" target="_blank" class="card-link-completo">
+        <div class="card mini-card">
+            <i class="fa-solid fa-globe icon"></i>
+            <p>Site Institucional</p>
+        </div>
+    </a>
+</div>
         </section>
     </main>
+    
 
     <!-- FOOTER -->
     <footer>
